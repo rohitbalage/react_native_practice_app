@@ -30,6 +30,31 @@ const HomeScreen = ({navigation}) => {
     title="Go to Image Screen"
     />
 
+<Button 
+    onPress={
+      // () =>console.log('Button Pressed')
+    () => navigation.navigate("CounterScreen")
+    }
+    title="Go to Counter Screen"
+    />
+
+<Button 
+    onPress={
+      // () =>console.log('Button Pressed')
+    () => navigation.navigate("ColorScreen")
+    }
+    title="Go to Color Screen"
+    />
+
+<Button 
+    onPress={
+      // () =>console.log('Button Pressed')
+    () => navigation.navigate("Square")
+    }
+    title="Go to Square demo"
+    />
+
+
   </View>
 
 };
