@@ -14,7 +14,6 @@ const ColorCounter =({color, onIncrease, onDecrease}) =>
         <Button onPress={()=>onDecrease()} title={`Decrease ${color}`}>
         </Button>
 
-<View style={{height: 150,width:150, backgroundColor: `rgb(${red}, ${green}, ${blue})`}}> </View>
     </View>
 };
 

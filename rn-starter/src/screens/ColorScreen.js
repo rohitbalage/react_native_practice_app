@@ -3,12 +3,12 @@ import {View, StyleSheet, Button, FlatList} from 'react-native';
 
 const ColorScreen = ()=>
 {
-const [colors, setColors] = useState([]);
+const [color, setColors] = useState([]);
 
 return (<View>
 <Button
 title="Add a color" onPress={() => {
-    setColors([...colors,randomRgb()])
+    setColors([...color,randomRgb()])
 }}/>
 
 <FlatList 
