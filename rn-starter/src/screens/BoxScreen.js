@@ -38,9 +38,10 @@ textTwoStyle:
     borderWidth: 3,
     borderColor: 'red',
     alignSelf: 'flex-end', // center, streatch
-    flex: 1
+    flex: 1,
     // marginVertical: 20,
     // marginHorizontal: 20,
+    position: 'absolute'
 },
 
 textThreeStyle: 
